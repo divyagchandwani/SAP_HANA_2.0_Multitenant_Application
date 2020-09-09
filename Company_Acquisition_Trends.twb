@@ -1,0 +1,2630 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0125.0835                               -->
+<workbook original-version='18.1' source-build='2019.4.3 (20194.20.0125.0835)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <HANALevelHierarchies predowngraded='true' />
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' inline='true' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hxehost' name='saphana.00zvg800luffhd1befn2u0fnexiv'>
+            <connection authentication='username-password' class='saphana' connection-type='SingleNode' odbc-connect-string-extras='' one-time-sql='' port='39015' schema='HANA_TABLEAU_SCHEMA' server='hxehost' sslmode='' username='DChandwani' workgroup-auth-mode=''>
+              <connection-customization class='saphana' enabled='false' version='18.1'>
+                <vendor name='saphana' />
+                <driver name='saphana' />
+                <customizations>
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='yes' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_ENUM_PUBLIC_SYNONYMS' value='yes' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HANA_DETECT_ANALYTIC' value='yes' />
+                  <customization name='CAP_HANA_IGNORE_SERVER_CAPTION' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='yes' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='yes' />
+                  <customization name='CAP_SELECT_INTO' value='yes' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='yes' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='no' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='saphana.00zvg800luffhd1befn2u0fnexiv' name='Acquisition_trends' table='[HANA_TABLEAU_SCHEMA].[Acquisition_trends]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+              <attribute datatype='string' name='ServerDrillPaths'>&quot;[Acquisition_trends].[Acquisition_trends],1&quot;</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquisition_id</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[acquisition_id]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquisition_id</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price_amount</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[price_amount]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>price_amount</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>34</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>price_currency_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[price_currency_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>price_currency_code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_at</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[acquired_at]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_at</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>term_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[term_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>term_code</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>100</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_category_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquired_company_category_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_category_code</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_funding_total_usd</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[acquired_company_funding_total_usd]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_funding_total_usd</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>34</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_funding_rounds</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[acquired_company_funding_rounds]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_funding_rounds</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquired_company_name]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_founded_at</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[acquired_company_founded_at]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_founded_at</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_country_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquired_company_country_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_country_code</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_state_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquired_company_state_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_state_code</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquired_company_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquired_company_city]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquired_company_city</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_category_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_category_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_category_code</remote-alias>
+            <ordinal>15</ordinal>
+            <caption>category_code</caption>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_funding_total_usd</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[acquiring_company_funding_total_usd]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_funding_total_usd</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>34</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_funding_rounds</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[acquiring_company_funding_rounds]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_funding_rounds</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_name]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_name</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_status]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_status</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_invested_companies</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[acquiring_company_invested_companies]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_invested_companies</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_founded_at</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[acquiring_company_founded_at]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_founded_at</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_country_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_country_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_country_code</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_state_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_state_code]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_state_code</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquiring_company_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquiring_company_city]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>acquiring_company_city</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acquired_company_age_at_acquisition</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Acquired_company_age_at_acquisition]</local-name>
+            <parent-name>[Acquisition_trends]</parent-name>
+            <remote-alias>Acquired_company_age_at_acquisition</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[acquired_company_category_code]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='string' name='[acquired_company_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[acquired_company_country_code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='real' name='[acquired_company_funding_total_usd]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='string' name='[acquired_company_state_code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='category_code' datatype='string' name='[acquiring_company_category_code]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='string' name='[acquiring_company_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[acquiring_company_country_code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[acquiring_company_name]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='string' name='[acquiring_company_state_code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[acquisition_id]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[id]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[price_amount]' role='measure' type='quantitative' />
+      <column-instance column='[acquired_company_funding_total_usd]' derivation='Avg' name='[avg:acquired_company_funding_total_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[price_amount]' derivation='Avg' name='[avg:price_amount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[acquired_company_funding_total_usd]' derivation='Sum' name='[pcto:sum:acquired_company_funding_total_usd:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[acquired_company_funding_total_usd]' derivation='Sum' name='[pcto:sum:acquired_company_funding_total_usd:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[price_amount]' derivation='Sum' name='[pcto:sum:price_amount:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[price_amount]' derivation='Sum' name='[pcto:sum:price_amount:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[acquired_company_funding_total_usd]' derivation='Stdev' name='[std:acquired_company_funding_total_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[price_amount]' derivation='Stdev' name='[std:price_amount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[acquired_company_funding_total_usd]' derivation='Sum' name='[sum:acquired_company_funding_total_usd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[price_amount]' derivation='Sum' name='[sum:price_amount:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (YEAR(acquired_at))' hidden='true' name='[Action (YEAR(acquired_at))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (YEAR(acquired_at),category_code)' hidden='true' name='[Action (YEAR(acquired_at),category_code)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+          <groupfilter function='level-members' level='[acquiring_company_category_code]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (acquired_company_category_code)' hidden='true' name='[Action (acquired_company_category_code)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[acquired_company_category_code]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (acquiring_company_name)' hidden='true' name='[Action (acquiring_company_name)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[acquiring_company_name]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Acquisition_trends' server-id='[Acquisition_trends].[Acquisition_trends]'>
+          <field>[id]</field>
+          <desc>
+            <formatted-text>
+              <run>[Acquisition_trends].[Acquisition_trends]</run>
+            </formatted-text>
+          </desc>
+        </drill-path>
+      </drill-paths>
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Divya Chandwani/Documents/My Tableau Repository/Datasources/STARTUP_INVESTMENTS/Acquisition_trends_data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/06/2020 03:07:07 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' increment-value='%null%' refresh-type='create' rows-inserted='9407' timestamp-start='2020-03-06 15:07:07.708' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9407</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquisition_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[acquisition_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquisition_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9407</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>price_amount</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[price_amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>price_amount</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>674</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>price_currency_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[price_currency_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>price_currency_code</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_at</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[acquired_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_at</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2025</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>term_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[term_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>term_code</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_category_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquired_company_category_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_category_code</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_funding_total_usd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[acquired_company_funding_total_usd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_funding_total_usd</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>647</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_funding_rounds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[acquired_company_funding_rounds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_funding_rounds</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquired_company_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_name</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8667</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_founded_at</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[acquired_company_founded_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_founded_at</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>378</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_country_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquired_company_country_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_country_code</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_state_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquired_company_state_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_state_code</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>56</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquired_company_city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquired_company_city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquired_company_city</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>917</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_category_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_category_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_category_code</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>40</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_funding_total_usd</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[acquiring_company_funding_total_usd]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_funding_total_usd</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>582</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_funding_rounds</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[acquiring_company_funding_rounds]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_funding_rounds</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_name</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2557</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_status</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_invested_companies</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[acquiring_company_invested_companies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_invested_companies</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_founded_at</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[acquiring_company_founded_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_founded_at</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>459</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_country_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_country_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_country_code</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>64</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_state_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_state_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_state_code</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquiring_company_city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquiring_company_city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquiring_company_city</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>814</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Acquired_company_age_at_acquisition</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Acquired_company_age_at_acquisition]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Acquired_company_age_at_acquisition</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Acquisition_trends</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.586538' measure-ordering='alphabetic' measure-percentage='0.413462' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:acquired_company_funding_total_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquired_company_funding_total_usd:qk:3]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquired_company_funding_total_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[std:acquired_company_funding_total_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquired_company_funding_total_usd:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:price_amount:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[std:price_amount:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+      <datasources>
+        <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+        <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+        <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]'>
+        <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+          <groupfilter function='union'>
+            <groupfilter function='member' level='[yr:acquired_at:ok]' member='%null%' />
+            <groupfilter from='1966' function='range' level='[yr:acquired_at:ok]' to='2004' />
+          </groupfilter>
+        </groupfilter>
+        <target field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter1' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Company_Acquisition_Trends' type='sheet' />
+      <link caption='Filter1' delimiter=',' escape='\' expression='tsl:Company_Acquisition_Trends?%5Bfederated.0tatisp1hqe17e14g2ff30z2uq1b%5D.%5Byr%3Aacquired_at%3Aok%5D~s0=&lt;YEAR([acquired_at])~na&gt;&amp;%5Bfederated.0tatisp1hqe17e14g2ff30z2uq1b%5D.%5Bacquiring_company_category_code%5D~s0=&lt;[acquiring_company_category_code]~na&gt;' include-null='true' multi-select='true' url-escape='true' />
+      <command command='tsc:tsl-filter'>
+        <param name='target' value='Company_Acquisition_Trends' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Company_Acquisition_Trends' type='sheet' worksheet='Yearly_Acquisitions' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Company_Acquisition_Trends' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Company_Acquisition_Trends' type='sheet' worksheet='Average_Company_AgeVsAcquisition_Prices_Per_Category' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Company_Acquisition_Trends' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+    </datasources>
+    <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+      <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+      <column caption='category_code' datatype='string' name='[acquiring_company_category_code]' role='dimension' type='nominal' />
+      <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Aquiring_ComapnyVS_no_of_Acquisitions'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Light' fontsize='10'>Acquiring  Companies- no. of companies invested</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+            <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+            <column caption='category_code' datatype='string' name='[acquiring_company_category_code]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[acquiring_company_invested_companies]' role='measure' type='quantitative' />
+            <column datatype='string' name='[acquiring_company_name]' role='dimension' type='nominal' />
+            <column-instance column='[acquiring_company_name]' derivation='None' name='[none:acquiring_company_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[acquiring_company_invested_companies]' derivation='Sum' name='[pcto:sum:acquiring_company_invested_companies:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[acquiring_company_invested_companies]' derivation='Sum' name='[sum:acquiring_company_invested_companies:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+              <groupfilter function='level-members' level='[acquiring_company_category_code]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</column>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquiring_company_invested_companies:qk]' num-steps='10' type='interpolated' />
+            <encoding attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' num-steps='10' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquiring_company_invested_companies:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquiring_company_invested_companies:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquiring_company_invested_companies:qk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' value='%  invested companies'>
+              <formatted-text>
+                <run>%  invested companies</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:acquiring_company_invested_companies:qk]' />
+              <color column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' />
+              <text column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{104F0CA9-C60F-43C1-89D7-8F32262D7926}' />
+    </worksheet>
+    <worksheet name='Average_Company_AgeVsAcquisition_Prices_Per_Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Light' fontsize='10'>Company Age vs Acquisition Price amount(USD) -Per category</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+            <column datatype='integer' name='[Acquired_company_age_at_acquisition]' role='measure' type='quantitative' />
+            <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[acquired_company_category_code]' role='dimension' type='nominal' />
+            <column caption='category_code' datatype='string' name='[acquiring_company_category_code]' role='dimension' type='nominal' />
+            <column-instance column='[Acquired_company_age_at_acquisition]' derivation='Avg' name='[avg:Acquired_company_age_at_acquisition:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[acquired_company_category_code]' derivation='None' name='[none:acquired_company_category_code:nk]' pivot='key' type='nominal' />
+            <column datatype='real' name='[price_amount]' role='measure' type='quantitative' />
+            <column-instance column='[price_amount]' derivation='Sum' name='[sum:price_amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+              <groupfilter function='level-members' level='[acquiring_company_category_code]' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:Acquired_company_age_at_acquisition:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:Acquired_company_age_at_acquisition:qk]</column>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</column>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:Acquired_company_age_at_acquisition:qk]' scope='rows' value='Average company age at acquisition' />
+            <format attr='title' class='0' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' scope='cols' value='' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:Acquired_company_age_at_acquisition:qk]' value='8' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_category_code:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='plus' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[avg:Acquired_company_age_at_acquisition:qk]</rows>
+        <cols>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]</cols>
+      </table>
+      <simple-id uuid='{9E4E2E66-D808-41AF-B2DC-F81E772BE4E0}' />
+    </worksheet>
+    <worksheet name='Total_FundingVSPrice_Amount_Per_Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Total Fundings vs Acquisition Price amounts per category</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+            <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[acquired_company_funding_total_usd]' role='measure' type='quantitative' />
+            <column caption='category_code' datatype='string' name='[acquiring_company_category_code]' role='dimension' type='nominal' />
+            <column-instance column='[acquiring_company_category_code]' derivation='None' name='[none:acquiring_company_category_code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[acquired_company_funding_total_usd]' derivation='Sum' name='[pcto:sum:acquired_company_funding_total_usd:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[price_amount]' derivation='Sum' name='[pcto:sum:price_amount:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column datatype='real' name='[price_amount]' role='measure' type='quantitative' />
+            <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+              <groupfilter function='level-members' level='[acquiring_company_category_code]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_category_code:nk]'>
+            <groupfilter function='level-members' level='[none:acquiring_company_category_code:nk]' user:ui-enumeration='all' user:ui-exclude='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_category_code:nk]</column>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</column>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' num-steps='10' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='caption'>
+            <format attr='background-color' value='#000000' />
+            <format attr='border-width' value='2' />
+            <format attr='border-style' value='solid' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' value='% acquisition price amount per category'>
+              <formatted-text>
+                <run>% acquisition price amount per category</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <size column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquired_company_funding_total_usd:qk:3]' />
+              <color column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' />
+              <text column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_category_code:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3EDD41F2-599C-4AD0-8F4C-304F8B2DA333}' />
+    </worksheet>
+    <worksheet name='Yearly_Acquisitions'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Acquisition price amounts(USD) per year</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+            <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[price_amount]' role='measure' type='quantitative' />
+            <column-instance column='[price_amount]' derivation='Sum' name='[sum:price_amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' scope='rows' value='Price Amount' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' num-steps='26' type='interpolated' />
+            <encoding attr='size-bar' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' value='Acquisition year'>
+              <formatted-text>
+                <run>Acquisition year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]</rows>
+        <cols>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</cols>
+      </table>
+      <simple-id uuid='{7463D609-389A-4D05-BB2F-3D4D94B6BBE0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Comapy_Acusition_Trends_Story' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='959' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type='layout-flow' w='98426' x='787' y='830'>
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98426' x='787' y='830' />
+            <zone h='87863' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98426' x='787' y='11307'>
+              <flipboard active-id='2' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Analyzing Acquisitons through the years, as per the price amounts invested in acquisitions,  major acquiring comapnies, company age at acquisition &amp; price amounts invested per category of company ' captured-sheet='Company_Acquisition_Trends' id='2'>
+                    <currentDeltas>
+                      <worksheet name='Aquiring_ComapnyVS_no_of_Acquisitions'>
+                        <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at))]'>
+                          <groupfilter function='level-members' level='[yr:acquired_at:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Average_Company_AgeVsAcquisition_Prices_Per_Category'>
+                        <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at))]'>
+                          <groupfilter function='level-members' level='[yr:acquired_at:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Total_FundingVSPrice_Amount_Per_Category'>
+                        <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at))]'>
+                          <groupfilter function='level-members' level='[yr:acquired_at:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+                        </filter>
+                      </worksheet>
+                      <worksheet name='Yearly_Acquisitions'>
+                        <filter class='categorical' column='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[Action (YEAR(acquired_at),category_code)]'>
+                          <groupfilter function='crossjoin' user:ui-enumeration='all' user:ui-marker='enumerate'>
+                            <groupfilter function='level-members' level='[yr:acquired_at:ok]' />
+                            <groupfilter function='level-members' level='[acquiring_company_category_code]' />
+                          </groupfilter>
+                        </filter>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' domain-expand='false' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' field-type='quantitative' major-origin='0.0' major-spacing='10000000000.0' minor-origin='0.0' minor-spacing='1000000000.0' scope='rows' type='space' />
+                            <format attr='title' class='0' field='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]' scope='rows' value='Total Price Amounts' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{86A72CE4-4C89-4EC0-9025-EFC27028E1CA}' />
+    </dashboard>
+    <dashboard name='Company_Acquisition_Trends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>Company Acquisition Trends </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Acquisition_trends (HANA_TABLEAU_SCHEMA.Acquisition_trends) (HANA_TABLEAU_SCHEMA)' name='federated.0tatisp1hqe17e14g2ff30z2uq1b' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0tatisp1hqe17e14g2ff30z2uq1b'>
+        <column datatype='date' name='[acquired_at]' role='dimension' type='ordinal' />
+        <column-instance column='[acquired_at]' derivation='Year' name='[yr:acquired_at:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='57' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='60' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='6125' id='61' type='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91875' id='58' type='layout-basic' w='98400' x='800' y='7125' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='51750' id='27' name='Total_FundingVSPrice_Amount_Per_Category' w='49000' x='900' y='49875' />
+        <zone h='9125' id='28' name='Total_FundingVSPrice_Amount_Per_Category' pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' type='color' w='23200' x='1500' y='92500' />
+        <zone h='49250' id='29' name='Average_Company_AgeVsAcquisition_Prices_Per_Category' w='50200' x='49700' y='50375' />
+        <zone h='42750' id='33' name='Aquiring_ComapnyVS_no_of_Acquisitions' w='58200' x='51100' y='8125' />
+        <zone h='9375' id='34' name='Aquiring_ComapnyVS_no_of_Acquisitions' pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' type='color' w='19900' x='79100' y='1625' />
+        <zone h='38500' id='101' name='Yearly_Acquisitions' w='48700' x='1300' y='11750' />
+        <zone h='6625' id='102' mode='checkdropdown' name='Yearly_Acquisitions' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' type='filter' w='16000' x='3000' y='4125' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1'>Company Acquisition Trends </run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='138' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='137' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6125' id='61' type='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42750' id='33' is-fixed='true' name='Aquiring_ComapnyVS_no_of_Acquisitions' w='58200' x='51100' y='8125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9375' id='34' name='Aquiring_ComapnyVS_no_of_Acquisitions' pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' type='color' w='19900' x='79100' y='1625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6625' id='102' mode='checkdropdown' name='Yearly_Acquisitions' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' type='filter' w='16000' x='3000' y='4125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38500' id='101' is-fixed='true' name='Yearly_Acquisitions' w='48700' x='1300' y='11750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51750' id='27' is-fixed='true' name='Total_FundingVSPrice_Amount_Per_Category' w='49000' x='900' y='49875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='28' name='Total_FundingVSPrice_Amount_Per_Category' pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' type='color' w='23200' x='1500' y='92500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49250' id='29' is-fixed='true' name='Average_Company_AgeVsAcquisition_Prices_Per_Category' w='50200' x='49700' y='50375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8427C8DB-E031-466C-BD80-90ABD2E9ADF7}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Yearly_Acquisitions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_category_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_country_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_state_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_city:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_country_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:price_currency_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:term_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_company_founded_at:ok]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquiring_company_founded_at:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3B095F59-ED09-49C1-89D0-ED5A96AFAF10}' />
+    </window>
+    <window class='worksheet' name='Total_FundingVSPrice_Amount_Per_Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='157'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_category_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_category_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{66904FA8-2C67-43A6-8E49-D32B0FDE6F3C}' />
+    </window>
+    <window class='worksheet' name='Average_Company_AgeVsAcquisition_Prices_Per_Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_category_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_country_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquiring_company_founded_at:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2E9E3FF5-5833-4A16-8D2C-CEA6B0B950D4}' />
+    </window>
+    <window class='worksheet' name='Aquiring_ComapnyVS_no_of_Acquisitions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='36'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[diff:cum:sum:acquiring_company_invested_companies:qk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquired_company_country_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[none:acquiring_company_category_code:nk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[sum:price_amount:qk]</field>
+            <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[yr:acquired_at:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D43728FE-D904-4E41-ADCC-537BCFFFCDFD}' />
+    </window>
+    <window class='dashboard' name='Company_Acquisition_Trends'>
+      <viewpoints>
+        <viewpoint name='Aquiring_ComapnyVS_no_of_Acquisitions'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:acquiring_company_invested_companies:qk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Average_Company_AgeVsAcquisition_Prices_Per_Category'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total_FundingVSPrice_Amount_Per_Category'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.0tatisp1hqe17e14g2ff30z2uq1b].[pcto:sum:price_amount:qk:2]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Yearly_Acquisitions'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7D902A6C-C6E7-4645-A8FC-4E2DD584E582}' />
+    </window>
+    <window class='dashboard' name='Comapy_Acusition_Trends_Story'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{03ACC95B-6F31-4762-AE98-5E63B86DE5D2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Aquiring_ComapnyVS_no_of_Acquisitions' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Average_Company_AgeVsAcquisition_Prices_Per_Category' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Comapy_Acusition_Trends_Story' width='192'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='Company_Acquisition_Trends' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Total_FundingVSPrice_Amount_Per_Category' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Yearly_Acquisitions' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAP6UlEQVR4nO3dW28b+XnH8e/wTIkSZZ1Pts62LNleeWVn7d2Nd7O7aRdIE3QTFMkCRXJV
+      5E0UKNrrXhUFelGkB6QXRdD2IkjbJL3YTbpNYMdeey2ZEkXqLFoURepAiWfOTC9sc31UrBFJ
+      yfo/nyuS0gwfifMjh8NnHmqmaZoIoSBN0zTbYRchxGGqWgAMw6jWXQnx0iQAQmmyCySUJgEQ
+      SpMACKVJAITSJABCaRIAoTQJgFCaBEAozXHYBQhhVVE3+OT2wr6Xa/C5uTzcBUgAxCusUNT5
+      2/+4se/lhk81lwIgu0BCaZYCkNnZYPLeNAXdILUdJzAzi26YrMzPEN9Okd5OcOfOHSKxzXLX
+      K0RZWQpAMpVn8JSfe9OLTE7P09nWzM7qHClnI8uhaRJbG/SdOcfy3Ey56xWirCy9B6ivdREI
+      LTF0posbv4mwMDONobnou9DD5vYauUKWe3e/wNCcGKaJoesYhkGhUCh3/UJhuq5bWs40zdK2
+      aCEABp/fvE1z9ymKRQ++Wg3NZqe1pYGZiQCYBl0eJ7V1dexsbmBqGg6Hg2KxiMMh77lF+RQt
+      dthrmobT6QQsBUDj9TeuoBsmLreX8cuXyRcNvB4PLS1pbE43Ngwasjmcg33YrdUoRFVYCoC3
+      pvax63YcD8KE21tTus3ncx60NiEqTg6DCqVJAITSJABCaRIAoTQJgFCaBEAoTQIglCYBEEqT
+      AAilSQCE0ix1py2EAmwkk/hbh+jyG/zPZ3f5g3fHuHknjNNbS7ffxlIiS75ocO3qpXLXLETZ
+      WApAz8AZzNA9XG4HoYUlTnY2sRZZZ2R8nI1wkLShY5gmdocD0zTRpR1aVMAhtUObzAYD1Lf3
+      c8KVZymdZT0awTPQi7GTIZ0v4PfVMnr+LOGJz9GlHVpUyCG1Q5sUdZ37i2HoGeTqlcusx3po
+      am4kPD2Fv72bBleB8PQkvuYOOeteHGkWtk8bw+fGnrilpbUVgNMj50u3vd7UcaDChKgGOQok
+      lCYBEEqTAAilSQCE0iQAQmkSAKE0CYBQmgRAKE0CIJQmARBKs9SqE12eYzW+Te/QWTYiYXZy
+      GiNnBwlNBfA0dNDkKTK7Esdb18DIUG+ZSxaifCy9AjS0dDLc30rk/iZdPYM0ekxmp6fxnxom
+      t7nGdibD4PAoycRauesVoqwsvQKktmIsJ7JcGBliOTxFwd1Igy2Jy+Mga7dTLGQJTE5gd3rR
+      TRNTzgcQFXBI5wPoBINhavyNxBLrhOciNLXptPZ3ErhzG1dtPZ1ODZutSLFYRNM07HI+gKiA
+      QzofwM6b77xXutb+h18vXb5ypenL23usFSdENclRIKE0CYBQmgRAKE0CIJQmARBKkwAIpUkA
+      hNIkAEJpEgChNAmAUJqlABRyGWKxOLphkkkl2dpJAZDcTJDO5ilk00SjUZKpTFmLFaLcLHWn
+      xdaimGaOqZkU2WQMp8NGrq2JyFYePbNER6OHrL2e8Nxd3n7zjXLXLETZWApAe3s7ExOTdA82
+      ENe6afPlCUfWGRobYyMUJGMUWV9fRdfsMh5dVMyhjUe/+8VdTg2dxedxsLgbJJqDzrYGlpdW
+      yWdytNXU0jdwishsUMaji4o5tPHo7R3tbMZj2Nq6ON1/krTuoK25AdfqCq72ETxajuXVdXqG
+      hmU8ujjSLI1H7+h+vNnfS93DSy0d3Q8veRgc9B+wNCEqTw6DCqVJAITSJABCaRIAoTQJgFCa
+      BEAoTQIglCYBEEqTAAilSQCE0iy16sRXFwnf3+aNiyPcuXWTAk5Gzg4yFQji8jXSUQcLsR2w
+      OfnKxXPlrlmIsrEUgLrGdjxrm5imTlHXcDgMIgtL9J6/yNZskN28httTQzqdwTRNDMMotUUL
+      US6GYa0d9PFt0VIA3G73gxUV0ti9DTR6CiRTeXTdRDcMnDY3rW1trC7MUgQcNhumaWKzyR6X
+      KB9Ns7Y9aRqlbdFSO/RiOEgymSS6XcRl7pJIOxgZPUtw8i7eE23Uew3mluaxe3w4Ne2xO9b2
+      WK8Q+2N9c9JK26KFAGj0DA7TMzgMQFdbS+knY+OXSpcbZT66eAXI+Sripf3kk3uks/s7rdXt
+      cvDx+0f3QIgEQLy0/74eZiO5v0kfdTWuIx0AeVcqlCYBEEqTAAilSQCE0iQAQmkSAKE0CYBQ
+      mgRAKM1SAIr5DMuRKJgm2/Eo96bDFHWd+dAUq/Ftdjdj3L5zh4VIrNz1ClFWlgKQiCdYiaxg
+      GHkCwXmaGv0k78+j13UQW5pjM7lN/5lRosvz5a5XiLKy1ArR1tnNaiyOYaTIFexsRVfYzZoM
+      jPViS7jIFbIEJu5i2lwYpokh49GPB9O0sAwVe9wrPh49FAoxNDRIODzL4ODgo8VZDAdZWFig
+      paMbrzPLdkqnp7ebyZu3cDg9nHTbQNPIZ7KYMh79+LDSf6xRGkVebhUdjz4fuMW//vt/0dff
+      T/fgeUrb/zPt0NdKy7R3nCxd7kaIo++F7wH6RsZ5baiLQj5PvlCsZk1CVM2e+yQefyvvv3kB
+      T219teoRoqr2PArU3OAjFApxfy1RrXqEqKo9A7Aevc/S0jyTwblq1SNEVe25C9TS3ondl2c7
+      Lx8Yi+Npzy27paWFgq5x7e2r1apHiKraMwB3vpigo/UE16/fqlY9QlTVngFwaCYrkRUcbm+1
+      6hGiqvbeBWprIV8waWyo2+vXhHhl7fkmeDtV4PLlS/I5gDi29gzAxlqEac1BU2cfLY3yxdfi
+      +NkzALlsipWVFUxv0xO3318MEViM88G1q6Q2ovzysy/48GsXuTkx/6AZ7oSN5c0C2Wyer331
+      SkX/ACEOYs8AfPTd7xMM3CPlcD1xe2fPELHNFKZRYC6SoP9UG+vRDc5dGmczFCSLgWmYOF3u
+      0ihqaYc+BlRqh/7Fv/0jN4Ix/C2d/NkPvvf44qxFlolGo7S3NpHJZohGVvCeOcPu8jKFIjR4
+      bNTW1ZFJJtGlHfr4UKkd+r1vfszpC2Gu/+42v709xXtXLpR+5m9s5u2338bpctPeeZLixTHs
+      Dgf5TBqb040Ng6ZsDqerT4aPiiPthdun0+2h7/Q5+k4/PdhUw+OteXIlD5/Z3aXb7fh8lUm9
+      EOW05xP03eufsONoobWhlqGBvmrVJETV7PlB2Mr6Lqn4IlPT4WrVI0RV7RmA3s5mUqksfWeG
+      q1WPEFW15y7QSjzJN7/1R3zy6W85P3hyr18VD/3wr39GdGN3X8u4nXZ+8pd/UqGKxF72fAXo
+      aqzlpz/9GV0DZ6pVjxBV9cIA/N//fkooHGJ9Pc784nI1axKial64C/TWV9/lV7/S+OPvvVPN
+      eoSoqj13gaLB3/E3f/f3/PKzz6tVjxBV9cJXgMDNX5PxtPHtb3yH7qaaF/2aEK+0F74C3N/M
+      8aff/YjQvbvVrEeIqnrhK0AxucqP/ulfKBSKpA0b33j3K6Wf3V8MMbOyxTtXxwlM3CaZyjF0
+      up/gzCJOby3dfhtLiSz5osG1q5dedBdCHLoXBuDD73z/hQs9aIe+g2azMTwyyuRkgI1ogpHx
+      cTbCQdKGjmGa2B0O5dqhTSy0DFO5luGyUqkd+qVWZOjcmwwwOHKe3NoC2zsZ0vkCfl8to+fP
+      Ep74XLl2aA0LLcNUrmW4rI5hO7SFiVcmi+FpcrkckVgMvaATmprG3XaKfGwBf3s3DT4fs9OT
+      +Jo7pB1aHGkWts9H49EfXOtu7yj95PTI+dLl15s6nl5QiCNHnqCPqHxBJ5vf/1h6X40Lm5Vd
+      FUVJAI6on98I86P/vL3v5X785x9RX+OuQEXHk0y9FUqTAAilSQCE0uQ9wDE3OR/jx7/YfzvL
+      1y/188Gl/gpUdLRIAI65nXSO6aX4vpcbG2qvQDVHj+wCCaVJAITSJABCaZYCYBo6m1tJAHY2
+      46zFtwBYX11hezdLLrVNOBwmvrlTvkqFqABLAVhdWWQiMI2h55iZW2bj/jyRxTDRlEl4OsB6
+      LEptQwuhYKDc9QpRVpaOAnWe6ie2kcQwdqn1tdPmyxOOrDM0NsZGLklGz7M+G6JoyvkAL+vp
+      /41hWOv11YtFCoUvn9d03dp6nvt4yfkAACZbGwm2trZIZfvY3Z4jl7JxqquZudAceiZPh9dD
+      a3sj8fsrcj7AS3q6Z95ms/b2zO5wPLEuu93aemw227N9/MfwfADLW+Tw8DCazcXo6Blyhp2G
+      ulq8NQkc3l6cFElsJWk9f14+aBBHmqXzARoamx+77uXRl6jWn3j0VUou2ttlkoQ4+uQwqFCa
+      BEAoTQIglCYBEEqTAAilSQCE0iQAQmkSAKE0CYBQmgRAKO2Aw3Hz3Lx+E11zcPbsAFNTs7hq
+      6+ms11hcT6ObGm9eHitXrUKU3cECYIJhmJg2g7XlVYbGLrIZDpIqmOiGgWZ7sh26WNz/qL9X
+      jdV26Kf/Nwdphy4W7V9eP0A79DOPl8V26Eo97gdph35U08ECUNjFUddGW02OjZ08mWyRvK5T
+      66yR8ej79PT/5iDt0I+v6yDt0M88XhbboSv1uNt1a0822sNtEg4YAJvbj8++TCLjZPjcCOGp
+      AJ4THfg9RcJTk7j9zdIOLZ7xye0Ffn49vO/lPv7gHGOD5R3XcqDtU9PsnBl9rXR99MLF0uXx
+      1u6DrFocY4nttKVZRclUruy1yFEgoTQJgFCaBEAoTQIglCYBEEqTo5RAUTdIZ/c/u8bltONx
+      yb/wVSaPHvBFOMpf/fOv973ct6+d5Qcfvvb7f1EcWbILJJQmARBKkwAIpR3sPYBpEo+usLqV
+      4exQP3MzU3hOdNDgKhBeWqPuRAtDvV1lKlWI8jvQK4Bh5JieWaDO52MrMoertZft6Apbu7sM
+      nBklEV0pV51CVMQBT4jJgKMOLbPB3GaWobF+dJeTfCFLYHICze5GN03MIz4e3Wpf+fP+JhmP
+      /pTnjEe3/Lfp+hPrOqTx6F+yOfx4HSmiGw4GBk4RuHULp7eWbq8dTSs8uJNX4HwAu93++3/p
+      OZ43QlzGoz/lOePRLf9tdvsT6zrU8egPVmRj/I23StebWzpKlzuP/1fMimOg6k/J61sp/uIf
+      Pt33cq8NtvPDb42XvyChtKoHQNdNIvH9f3neydb6ClQjVCefAwilSQCE0iQAQmkSAKE0CYBQ
+      mgRAKE0CIJQmARBKO3gATJNcLocJ5DJpCkUdvVhgd3eXXP5oNr8J8ciBPwlOxiN8emOa998a
+      ZXJ2HUyDrhNOEjknW5ubvPPWG+WoU4iKOFg7tJ5nMZqkt6uZRGyb0+dH2AwFyZoGqZ0kmt35
+      xHj0QqFAUbc2Ktt4rIW13KQd+lnSDv0yBeUy5AtZIktLjA4PEottkc5kafbVM3rh+ePRHXZr
+      d2l7rIW13KQd+lnSDv0SHDV+xl9/naGBAer8fiLzMzQNDVNDlpngJG09AzJ3RRxpZdk+6/1+
+      ALr7Tj+8pZaxsaZyrFqIipLDoEJpEgChtP8HOhe1NABvc0EAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
